@@ -1,0 +1,31 @@
+# Backend dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Secrets / local debug files – never commit these
+login.json
+credentials.json
+*.local.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build output
+dist
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
